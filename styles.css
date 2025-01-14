@@ -63,4 +63,34 @@ nav ul li a:hover {
 /* Section 1 */
 section {
     background-color: #CB9DF0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.midpart {
+    background-color:aquamarine;
+    width: 50%;
+    height: 90%;
+}
+
+/* Introduction Section */
+
+
+/* Projects Section */
+.project-list { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1.5%; 
+    justify-content: space-between;
+    background-color: blue;
+}
+.project-card { 
+    background-color: darkorange;
+    margin-top: 3%;
+    height: 50vh;
+    width: 48.5%;
+}
+.project-card img { 
+    width: 100%; 
 }
