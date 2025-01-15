@@ -134,10 +134,10 @@ section {
     flex-wrap: wrap; 
     gap: 1.5%; 
     justify-content: space-between;
-    background-color: blue;
+    background-color: #BFECFF;
 }
 .project-card { 
-    background-color: darkorange;
+    background-color: #CDC1FF;
     margin-top: 3%;
     height: 50vh;
     width: 48.5%;
