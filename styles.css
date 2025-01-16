@@ -173,6 +173,7 @@ section {
     margin-left: 3%;
     margin-top: 2.5%;
     object-fit: cover;
+    border-radius: 0.75vw;
 }
 .project-name {
     font-size: 1.4vw;
