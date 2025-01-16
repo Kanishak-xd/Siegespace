@@ -1,8 +1,8 @@
 const projects = [
-    { id: 1, name: 'AQUASOL↗', subtitle: 'Smart Water Management', description: 'IoT Based Smart Water Management System AQUASOL Mobile Application', image: 'images/p1.png', link: 'https://example.com/project1' },
-    { id: 2, name: 'RE:JAPANESE↗', subtitle: 'Learn Japanese Language', description: 'Basic Japanese language learning website designed by using HTML, CSS & Javascript', image: 'images/p2.png', link: 'https://example.com/project2' },
-    // { id: 3, name: 'Project 3↗', subtitle: 'Subtitle for Project 3', description: 'project description', image: '', link: 'https://example.com/project3' },
-    // { id: 4, name: 'Project 4↗', subtitle: 'Subtitle for Project 4', description: 'project description', image: '', link: 'https://example.com/project4' },
+    { id: 1, name: 'BHUTAN KEEPS↗', subtitle: 'E-Commerce Website', description: 'An E-Commerce website to browse & buy traditional Bhutanese fabrics', image: 'images/p1.png', link: 'https://kanishak-xd.github.io/Bhutan-Keeps/' },
+    { id: 2, name: 'RE:JAPANESE↗', subtitle: 'Learn Japanese Language', description: 'Basic Japanese language learning website designed by using HTML, CSS & Javascript', image: 'images/p2.png', link: 'https://kanishak-xd.github.io/RE-JAPANESE/' },
+    { id: 3, name: 'RE:WUTHERING↗', subtitle: 'Unofficial Game Website', description: 'Explore world of Wuthering Waves including characters available', image: 'images/p3.png', link: 'https://kanishak-xd.github.io/re-wuthering/' },
+    { id: 4, name: 'AQUASOL↗', subtitle: 'Smart Water Management', description: 'IoT Based Smart Water Management System AQUASOL Mobile Application', image: 'images/p4.png', link: 'https://github.com/Kanishak-xd/Aquasol' },
 ];
 
 const projectList = document.getElementById('project-list');
