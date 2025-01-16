@@ -32,8 +32,28 @@ header {
     font-size: 1.3vw;
     text-decoration: none;
     font-weight: 600;
-    color: #000;
+    color: transparent; /* Transparent text for gradient effect */
+    background-image: linear-gradient(225deg, #DE97F9, #9157FF); /* Gradient colors */
+    background-size: 300% 300%; /* Larger background for smooth animation */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    animation: animate 5s ease infinite; /* Animation with timing */
+    text-align: center;
+    display: inline-block;
 }
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%; /* Start from the left */
+    }
+    50% {
+        background-position: 100% 50%; /* Move to the right */
+    }
+    100% {
+        background-position: 0% 50%; /* Move back to the left */
+    }
+}
+
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -105,6 +125,9 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
+    color: transparent;
+    background-size: 300% 300%; 
+    animation: animate 5s ease infinite; 
 }
 .intro-left #intro-h2-1 {
     font-size: 1vw;
