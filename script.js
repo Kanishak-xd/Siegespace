@@ -63,47 +63,56 @@ const items = [
         heading: "Item 1",
         image: "images/", 
         link: "",
+        subtitle: "subtitle 1",
     },
     {
         heading: "Item 2",
         image: "images/", 
         link: "",
+        subtitle: "subtitle 2",
     },
     {
         heading: "Item 3",
         image: "images/", 
         link: "",
+        subtitle: "subtitle 3",
     },
     {
         heading: "Item 4",
         image: "images/", 
         link: "",
+        subtitle: "subtitle 4",
     },
     {
         heading: "Item 5",
         image: "images/", 
         link: "",
+        subtitle: "subtitle 5",
     },
     {
         heading: "Item 6",
         image: "images/", 
         link: "",
+        subtitle: "subtitle 6",
     },
-    {
-        heading: "Item 7",
-        image: "images/", 
-        link: "",
-    },
-    {
-        heading: "Item 8",
-        image: "images/", 
-        link: "",
-    },
-    {
-        heading: "Item 9",
-        image: "images/", 
-        link: "",
-    },
+    // {
+    //     heading: "Item 7",
+    //     image: "images/", 
+    //     link: "",
+    //     subtitle: "subtitle 7",
+    // },
+    // {
+    //     heading: "Item 8",
+    //     image: "images/", 
+    //     link: "",
+    //     subtitle: "subtitle 8",
+    // },
+    // {
+    //     heading: "Item 9",
+    //     image: "images/", 
+    //     link: "",
+    //     subtitle: "subtitle 9",
+    // },
 ];
 
 // Function to dynamically create boxes
@@ -132,9 +141,15 @@ function populateItems(items) {
         headingElement.classList.add("exp-heading");
         headingElement.textContent = item.heading;
 
-        // Append image first, then heading to the box
+        // Create subtitle element
+        const subtitleElement = document.createElement("h4");
+        subtitleElement.classList.add("exp-subtitle");
+        subtitleElement.textContent = item.subtitle;
+
+        // Append image first, then heading & subtitle to the box
         box.appendChild(imgElement);
         box.appendChild(headingElement);
+        box.appendChild(subtitleElement);
 
         // Wrap the box in the link
         linkElement.appendChild(box);

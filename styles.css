@@ -262,11 +262,19 @@ section {
     margin: 0.8vw auto 0.3vw 0.75vw;
 }
 .exp-heading {
-    font-size: 1.4vw;
-    margin-bottom: 0.5vw;
+    font-size: 1.1vw;
+    margin-bottom: 0.2vw;
     color: #000;
     margin-left: 0.75vw;
-    font-weight: 550;
+    font-weight: 500;
+    width: 90%;
+}
+.exp-subtitle {
+    font-size: 0.9vw;
+    margin-bottom: 0.5vw;
+    color: rgb(92, 92, 92);
+    margin-left: 0.75vw;
+    font-weight: 500;
     width: 90%;
 }
 
