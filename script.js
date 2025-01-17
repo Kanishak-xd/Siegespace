@@ -61,37 +61,37 @@ projects.forEach(project => {
 const items = [
     {
         heading: "Consilio - The Design Club",
-        image: "images/exp1.png", 
+        image: "images/expach1.png", 
         link: "",
         subtitle: "2024-25",
     },
     {
         heading: "Ingenuity Fest 2023",
-        image: "images/exp1.png", 
+        image: "images/expach2.png", 
         link: "",
         subtitle: "2022-23",
     },
     {
         heading: "Student Affairs Committee",
-        image: "images/exp1.png", 
+        image: "images/expach3.png", 
         link: "",
         subtitle: "2024-25",
     },
     {
         heading: "Exalt - The Gaming Club",
-        image: "images/exp1.png", 
+        image: "images/expach4.png", 
         link: "",
         subtitle: "2023-25",
     },
     {
         heading: "Management",
-        image: "images/exp1.png", 
+        image: "images/expach5.png", 
         link: "",
         subtitle: "2024",
     },
     {
         heading: "Japanese Language",
-        image: "images/exp1.png", 
+        image: "images/expach6.png", 
         link: "",
         subtitle: "2022-25",
     },
