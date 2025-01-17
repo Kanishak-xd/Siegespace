@@ -25,7 +25,8 @@ projects.forEach(project => {
         img.alt = `${project.name} image`;
         img.classList.add('project-image');
         anchor.appendChild(img);
-    } else {
+    } 
+    else {
         // Placeholder for projects without images
         const placeholder = document.createElement('div');
         placeholder.classList.add('project-placeholder');
@@ -55,3 +56,93 @@ projects.forEach(project => {
     card.appendChild(anchor);
     projectList.appendChild(card);
 });
+
+// Array to add items
+const items = [
+    {
+        heading: "Item 1",
+        image: "images/", 
+        link: "",
+    },
+    {
+        heading: "Item 2",
+        image: "images/", 
+        link: "",
+    },
+    {
+        heading: "Item 3",
+        image: "images/", 
+        link: "",
+    },
+    {
+        heading: "Item 4",
+        image: "images/", 
+        link: "",
+    },
+    {
+        heading: "Item 5",
+        image: "images/", 
+        link: "",
+    },
+    {
+        heading: "Item 6",
+        image: "images/", 
+        link: "",
+    },
+    {
+        heading: "Item 7",
+        image: "images/", 
+        link: "",
+    },
+    {
+        heading: "Item 8",
+        image: "images/", 
+        link: "",
+    },
+    {
+        heading: "Item 9",
+        image: "images/", 
+        link: "",
+    },
+];
+
+// Function to dynamically create boxes
+function populateItems(items) {
+    const expList = document.querySelector(".exp-list");
+
+    items.forEach((item) => {
+        // Create a link element to wrap the box
+        const linkElement = document.createElement("a");
+        linkElement.href = item.link;
+        linkElement.target = "_blank"; // Open in a new tab
+        linkElement.classList.add("exp-box-link");
+
+        // Create box container
+        const box = document.createElement("div");
+        box.classList.add("exp-box");
+
+        // Create image element
+        const imgElement = document.createElement("img");
+        imgElement.classList.add("exp-image");
+        imgElement.src = item.image;
+        imgElement.alt = item.heading;
+
+        // Create heading element
+        const headingElement = document.createElement("h3");
+        headingElement.classList.add("exp-heading");
+        headingElement.textContent = item.heading;
+
+        // Append image first, then heading to the box
+        box.appendChild(imgElement);
+        box.appendChild(headingElement);
+
+        // Wrap the box in the link
+        linkElement.appendChild(box);
+
+        // Append the link to the exp-list
+        expList.appendChild(linkElement);
+    });
+}
+
+// Populate the exp-list with the items
+populateItems(items);
