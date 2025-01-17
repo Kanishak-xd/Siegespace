@@ -90,8 +90,8 @@ section {
     /* background-color: #CB9DF0; */
     width: 100vw;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .midpart {
     margin-top: 5%;
@@ -227,3 +227,70 @@ section {
 
 
 /* Experiences & Achievements Section */
+
+
+/* Footer Section */
+/* .footer {
+    background-image: url('images/topo.png');
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.foo-logo {
+    height: 5vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+}
+.foo-logo h1 {
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: white;
+}
+.foo-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 50vw;
+    margin-top: 1vw;
+}
+.socials {
+    width: 3vw;
+    height: 3vw;
+    margin: 0px 2vw 0px 2vw;
+}
+.footer-bottom {
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    margin-top: 2vw;
+}
+.foo-madeby {
+    height: 7vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foo-text1 {
+    color: white;
+    font-size: 1.1vw;
+}
+.foo-text2 {
+    color: white;
+    font-size: 1.1vw;
+} */
