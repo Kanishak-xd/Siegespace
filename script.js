@@ -161,26 +161,3 @@ function populateItems(items) {
 
 // Populate the exp-list with the items
 populateItems(items);
-
-// Array to store user inputs
-const userInputs = [];
-
-// Function to handle user input
-function handleUserInput() {
-  const inputField = document.getElementById('userInput');
-  const userInput = inputField.value.trim();
-
-  if (userInput) {
-    // Store input as an object in the array
-    userInputs.push({ input: userInput, timestamp: new Date().toISOString() });
-    console.log('Current User Inputs:', userInputs);
-
-    // Clear the input field for the next entry
-    inputField.value = '';
-  } else {
-    console.log('No input provided!');
-  }
-}
-
-// Attach event listener to the button
-document.getElementById('submitButton').addEventListener('click', handleUserInput);
