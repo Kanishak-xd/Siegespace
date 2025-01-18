@@ -95,24 +95,6 @@ const items = [
         link: "",
         subtitle: "2022-25",
     },
-    // {
-    //     heading: "Item 7",
-    //     image: "images/", 
-    //     link: "",
-    //     subtitle: "subtitle 7",
-    // },
-    // {
-    //     heading: "Item 8",
-    //     image: "images/", 
-    //     link: "",
-    //     subtitle: "subtitle 8",
-    // },
-    // {
-    //     heading: "Item 9",
-    //     image: "images/", 
-    //     link: "",
-    //     subtitle: "subtitle 9",
-    // },
 ];
 
 // Function to dynamically create boxes

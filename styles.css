@@ -32,24 +32,24 @@ header {
     font-size: 1.3vw;
     text-decoration: none;
     font-weight: 600;
-    color: transparent; /* Transparent text for gradient effect */
-    background-image: linear-gradient(225deg, #DE97F9, #9157FF); /* Gradient colors */
-    background-size: 300% 300%; /* Larger background for smooth animation */
-    -webkit-background-clip: text; /* Apply gradient to text */
-    animation: animate 5s ease infinite; /* Animation with timing */
+    color: transparent;
+    background-image: linear-gradient(225deg, #DE97F9, #9157FF);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    animation: animate 5s ease infinite;
     text-align: center;
     display: inline-block;
 }
 
 @keyframes animate {
     0% {
-        background-position: 0% 50%; /* Start from the left */
+        background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%; /* Move to the right */
+        background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%; /* Move back to the left */
+        background-position: 0% 50%;
     }
 }
 
@@ -79,15 +79,11 @@ nav ul li a {
     transition: background-color 0.4s, color 0.4s;
 }
 nav ul li a:hover {
-    /* background-image: linear-gradient(-225deg, #7742B2 0%, #F180FF 52%, #FD8BD9 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     color: #CB9DF0;
 }
 
 /* Section */
 section {
-    /* background-color: #CB9DF0; */
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -95,7 +91,6 @@ section {
 }
 .midpart {
     margin-top: 5%;
-    /* background-color:aquamarine; */
     width: 50%;
     height: 90%;
 }
@@ -105,7 +100,6 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* background-color: brown; */
     
 }
 .intro-left {
@@ -160,7 +154,6 @@ section {
 .projects {
     display: flex;
     flex-direction: column;
-    /* background-color: #FFCCEA; */
     padding-top: 10%;
 }
 .pro-heading {
@@ -173,7 +166,6 @@ section {
     flex-wrap: wrap; 
     gap: 1.5%; 
     justify-content: space-between;
-    /* background-color: #BFECFF; */
 }
 .project-card { 
     background-color: #f3f3f3;
@@ -278,69 +270,63 @@ section {
     width: 90%;
 }
 
-
 /* Footer Section */
-/* .footer {
-    background-image: url('images/topo.png');
+.footer {
     width: 100vw;
-    height: 40vh;
+    height: 30vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin-top: 10vh;
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-}
-.foo-logo {
-    height: 5vw;
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 1vw;
+    margin-top: 10vh;
+    background-color: #000;
 }
-.foo-logo h1 {
-    font-size: 2.5vw;
+.foo-left {
+    width: 25%;
+    height: 100%;
+}
+.foo-left h1 {
+    font-size: 2vw;
     font-weight: 700;
     color: white;
+    margin-top: 2vw;
+}
+.maby-1 {
+    margin-top: 6vw;
+    font-size: 1.1vw;
+    color: white;
+    line-height: 1;
+    font-weight: 500;
+}
+.maby-2 {
+    font-size: 1.1vw;
+    color: white;
+    line-height: 1;
+    font-weight: 500;
+}
+.foo-right {
+    width: 25%;
+    height: 100%;
 }
 .foo-socials {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 6vh;
-    width: 50vw;
-    margin-top: 1vw;
-}
-.socials {
-    width: 3vw;
+    width: 100%;
     height: 3vw;
-    margin: 0px 2vw 0px 2vw;
-}
-.footer-bottom {
-    border-top: 1px solid rgb(255, 255, 255);
-    text-align: center;
-    width: 90%;
-    font-size: 20px;
-    color: white;
-    margin-top: 2vw;
-}
-.foo-madeby {
-    height: 7vw;
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 10vw;
+    gap: 3%;
+    justify-content: end;
     align-items: center;
 }
-.foo-text1 {
-    color: white;
-    font-size: 1.1vw;
+.foo-socials a {
+    width: 11%;
+    height: 90%;
+    transition: 0.3s;
 }
-.foo-text2 {
-    color: white;
-    font-size: 1.1vw;
-} */
+.foo-socials a:hover {
+    transform: translate(0, -3px);
+}
+.foo-socials a img {
+    width: 100%;
+    height: 100%;
+}
