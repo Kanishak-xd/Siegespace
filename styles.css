@@ -40,7 +40,6 @@ header {
     text-align: center;
     display: inline-block;
 }
-
 @keyframes animate {
     0% {
         background-position: 0% 50%;
@@ -52,8 +51,6 @@ header {
         background-position: 0% 50%;
     }
 }
-
-
 nav {
     display: flex;
     justify-content: flex-end;
@@ -218,7 +215,6 @@ section {
     outline: none;
 }
 
-
 /* Experiences & Achievements Section */
 .experience {
     margin-top: 5vw;
@@ -228,14 +224,12 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .exp-box-link {
     text-decoration: none; 
     width: 16vw;
     margin-top: 1vw;
     font-size: 1.2vw;
 }
-
 .exp-box {
     border: 1px solid #000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -243,7 +237,6 @@ section {
     background-color: #f9f9f9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .exp-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
