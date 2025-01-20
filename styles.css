@@ -208,6 +208,7 @@ section {
     color: #737373;
     margin: 1% auto 3% 3%;
     line-height: 1.4;
+    width: 94%;
 }
 .project-card:hover {
     transform: translate(0, -10px);
