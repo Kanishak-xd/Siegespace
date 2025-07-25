@@ -24,9 +24,9 @@ const LINKS = [
 
 function NavList() {
   return (
-    <ul className="m-2 flex flex-col gap-x-8 gap-y-1 lg:m-0 lg:flex-row lg:items-center">
+    <ul className="m-2 flex flex-col gap-x-8 gap-y-2 lg:m-0 lg:flex-row lg:items-center bg-white p-2">
       {LINKS.map(({ title, href }) => (
-        <li key={title}>
+        <li key={title} className="bg-white rounded-xs">
           <Typography as="a" href={href} type="small" className="p-1 hover:text-primary">
             {title}
           </Typography>
@@ -48,7 +48,7 @@ export default function SimpleNavbar() {
 
   return (
     <div className="flex justify-center items-center">
-      <Navbar className="mx-auto w-full max-w-screen-xl z-10 pt-5 shadow-transparent fixed top-0">
+      <Navbar className="mx-auto w-full max-w-screen-xl z-10 pt-5 shadow-transparent bg-white fixed top-0">
         <div className="flex items-center">
           <Typography as="a" href="#" type="small" className="mx-2 block py-1">
             <GradientText colors={["#DE97F9", "#9157FF"]}
