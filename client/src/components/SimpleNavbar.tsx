@@ -47,29 +47,31 @@ export default function SimpleNavbar() {
   }, []);
 
   return (
-    <Navbar className="mx-auto w-full max-w-screen-xl z-10 pt-5">
-      <div className="flex items-center">
-        <Typography as="a" href="#" type="small" className="mx-2 block py-1">
-          <GradientText colors={["#DE97F9", "#9157FF"]}
-            animationSpeed={1} showBorder={false} className="custom-class text-2xl"
-          >
-            Siegespace
-          </GradientText>
-        </Typography>
-        <div className="hidden lg:ml-auto lg:mr-2 lg:block font-semibold text-xl">
-          <NavList />
+    <div className="flex justify-center items-center">
+      <Navbar className="mx-auto w-full max-w-screen-xl z-10 pt-5 shadow-transparent fixed top-0">
+        <div className="flex items-center">
+          <Typography as="a" href="#" type="small" className="mx-2 block py-1">
+            <GradientText colors={["#DE97F9", "#9157FF"]}
+              animationSpeed={1} showBorder={false} className="custom-class text-2xl"
+            >
+              Siegespace
+            </GradientText>
+          </Typography>
+          <div className="hidden lg:ml-auto lg:mr-2 lg:block font-semibold text-xl">
+            <NavList />
+          </div>
+          <IconButton size="sm" variant="ghost" color="secondary" onClick={() => setOpenNav(!openNav)} className="ml-auto grid lg:hidden mr-3 mt-1">
+            {openNav ? (
+              <Xmark className="h-4 w-4" />
+            ) : (
+              <Menu className="h-4 w-4" />
+            )}
+          </IconButton>
         </div>
-        <IconButton size="sm" variant="ghost" color="secondary" onClick={() => setOpenNav(!openNav)} className="ml-auto grid lg:hidden mr-3 mt-1">
-          {openNav ? (
-            <Xmark className="h-4 w-4" />
-          ) : (
-            <Menu className="h-4 w-4" />
-          )}
-        </IconButton>
-      </div>
-      <Collapse open={openNav}>
-        <NavList />
-      </Collapse>
-    </Navbar>
+        <Collapse open={openNav}>
+          <NavList />
+        </Collapse>
+      </Navbar>
+    </div>
   );
 }
