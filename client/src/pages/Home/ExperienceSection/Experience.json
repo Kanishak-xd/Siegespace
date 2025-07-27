@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "heading": "Converge Digital",
+        "description": "Full stack development intern.",
+        "thumbnail": "",
+        "link": ""
+    },
+    {
+        "id": 2,
+        "heading": "The Design Club",
+        "description": "Club coordinator for design activities.",
+        "thumbnail": "",
+        "link": ""
+    },
+    {
+        "id": 3,
+        "heading": "Ingenuity Fest 2023",
+        "description": "Volunteer on the design team.",
+        "thumbnail": "",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "heading": "Student Affairs Committee",
+        "description": "Member of the SAC committee.",
+        "thumbnail": "",
+        "link": ""
+    },
+    {
+        "id": 5,
+        "heading": "The Gaming Club",
+        "description": "Design team member.",
+        "thumbnail": "",
+        "link": ""
+    },
+    {
+        "id": 6,
+        "heading": "Japanese Language",
+        "description": "JLPT N5 certified (87 percentile).",
+        "thumbnail": "",
+        "link": ""
+    }
+]
