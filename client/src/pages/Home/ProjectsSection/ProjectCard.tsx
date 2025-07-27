@@ -4,13 +4,14 @@ interface ProjectCardData {
   subheading: string;
   description: string;
   thumbnail: string;
+  link: string;
 }
 
 export default function ProjectCard({ projectCardData }: { projectCardData: ProjectCardData }) {
-  const { heading, subheading, description, thumbnail } = projectCardData;
+  const { heading, subheading, description, thumbnail, link } = projectCardData;
   return (
     <>
-        <div className="max-w-full p-4 border-1 border-black rounded-xl hover:scale-101 hover:cursor-pointer shadow-lg dark:bg-neutral-50 dark:text-neutral-900">
+        <a href={ link } className="max-w-full p-4 border-1 border-black rounded-xl hover:scale-101 hover:cursor-pointer shadow-lg dark:bg-neutral-50 dark:text-neutral-900">
             <img src={ thumbnail } alt="project-thumbnail" 
               className="object-cover object-center w-full rounded-xl xl:h-82 lg:h-62 md:h-62 sm:h-62 h-42 dark:bg-gray-500" 
             />
@@ -25,7 +26,7 @@ export default function ProjectCard({ projectCardData }: { projectCardData: Proj
             <p className="dark:text-neutral-600 text-1 sm:text-1 md:text-1 xl:text-xl">
               { description }
             </p>
-        </div>
+        </a>
     </>
   );
 }

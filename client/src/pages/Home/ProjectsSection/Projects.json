@@ -4,27 +4,31 @@
         "heading": "REJAP",
         "subheading": "Language Learning Website",
         "description": "A website to learn Japanese language with interactive lessons built in MERN stack",
-        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753605197/rejap_shugv4.png"
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753605197/rejap_shugv4.png",
+        "link": "https://github.com/Kanishak-xd/rejap"
     },
     {
         "id": 2,
         "heading": "THREAT-INTELLIGENCE",
         "subheading": "Threat Intelligence Dashboard Website",
         "description": "A website with real-time data analysis, attack trend visualization and API integration in MERN stack",
-        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753604823/threat-intelligence_awoiie.png"
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753604823/threat-intelligence_awoiie.png",
+        "link": "https://github.com/Kanishak-xd/threat-intelligence"
     },
     {
         "id": 3,
         "heading": "AQUASOL",
         "subheading": "Smart Water Management App",
         "description": "A mobile application for AQUASOL, an IoT based smart water management system",
-        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753604824/aquasol_kmcnga.png"
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753604824/aquasol_kmcnga.png",
+        "link": "https://github.com/Kanishak-xd/Aquasol"
     },
     {
         "id": 4,
         "heading": "BHUTAN KEEPS",
         "subheading": "E-Commerce Website",
         "description": "An E-Commerce website to browse & buy traditional Bhutanese fabrics",
-        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753604824/bhutan-keeps_pogoup.png"
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753604824/bhutan-keeps_pogoup.png",
+        "link": "https://github.com/Kanishak-xd/Bhutan-Keeps"
     }
 ]
