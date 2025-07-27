@@ -2,14 +2,14 @@
     {
         "id": 1,
         "heading": "REJAP",
-        "subheading": "Japanese Language Learning Platform",
-        "description": "An interactive MERN stack platform for learning Japanese, with quizzes & progress tracking.",
+        "subheading": "Language Learning Platform",
+        "description": "MERN stack platform for learning Japanese, with quizzes & progress tracking.",
         "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753605197/rejap_shugv4.png",
         "link": "https://github.com/Kanishak-xd/rejap"
     },
     {
         "id": 2,
-        "heading": "THREAT-INTELLIGENCE",
+        "heading": "THREAT-INTEL",
         "subheading": "Attack Trends & Analysis Platform",
         "description": "MERN stack site for real-time threat data, trend visualization & API integration.",
         "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753604823/threat-intelligence_awoiie.png",
