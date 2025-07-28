@@ -3,14 +3,27 @@ interface ExperienceData {
     heading: string;
     description: string;
     thumbnail: string;
-    link: string;
+    detailedContent: string[];
 }
 
-export default function ExpCard({ experienceCardData }: { experienceCardData: ExperienceData }) {
-    const { heading, description, thumbnail, link } = experienceCardData;
+interface ExpCardProps {
+    experienceCardData: ExperienceData;
+    onCardClick: (experience: ExperienceData) => void;
+}
+
+export default function ExpCard({ experienceCardData, onCardClick }: ExpCardProps) {
+    const { heading, description, thumbnail } = experienceCardData;
+    
+    const handleClick = (e: React.MouseEvent) => {
+        e.preventDefault();
+        onCardClick(experienceCardData);
+    };
+
     return (
         <>
-            <a href={ link } className="max-w-full p-2 sm:p-2 md:p-3 xl:p-4 border-1 border-black rounded-lg hover:scale-101 hover:cursor-pointer shadow-lg dark:bg-neutral-50 dark:text-neutral-900">
+            <div onClick={handleClick}
+                className="max-w-full p-2 sm:p-2 md:p-3 xl:p-4 border-1 border-black rounded-lg hover:scale-101 hover:cursor-pointer shadow-lg dark:bg-neutral-50 dark:text-neutral-900"
+            >
                 <img src={ thumbnail } alt="experience-achievement-thumbnail" 
                     className="object-cover object-center w-full rounded-md xl:h-64 lg:h-62 md:h-62 sm:h-30 h-30 dark:bg-gray-500" 
                 />
@@ -22,7 +35,7 @@ export default function ExpCard({ experienceCardData }: { experienceCardData: Ex
                         { description }
                     </p>
                 </div>
-            </a>
+            </div>
         </>
     );
 }

@@ -4,41 +4,65 @@
         "heading": "Converge Digital",
         "description": "Full stack development intern.",
         "thumbnail": "",
-        "link": ""
+        "detailedContent": [
+            "Worked as a Full Stack Development Intern at Converge Digital, gaining hands-on experience in modern web development technologies and practices.",
+            "Contributed to real-world projects, developing both frontend and backend components while collaborating with experienced developers.",
+            "Enhanced skills in responsive design, API integration, and database management through practical application."
+        ]
     },
     {
         "id": 2,
         "heading": "The Design Club",
         "description": "Club coordinator for design activities.",
         "thumbnail": "",
-        "link": ""
+        "detailedContent": [
+            "As a Coordinator for Consilio - The Design Club, I was involved in fostering a vibrant community. The club operated on a community-run model, where members actively hosted sessions on various software, including Blender, Adobe After Effects, and more, sharing their expertise with peers.",
+            "I personally organized and led design workshops for fellow students. These sessions covered practical software like Adobe Photoshop and Canva, as well as foundational design principles such as color theory and typography.",
+            "Additionally, I collaborated with Sinusoid Fest to successfully organize and execute a web development competition, broadening the club's impact and reach."
+        ]
     },
     {
         "id": 3,
-        "heading": "Ingenuity Fest 2023",
+        "heading": "IngeNUity Fest 2023",
         "description": "Volunteer on the design team.",
         "thumbnail": "",
-        "link": ""
+        "detailedContent": [
+            "Served as a dedicated volunteer for IngeNUity 2023, contributing to the design team's efforts in creating visual materials for the campus festival.",
+            "Designed ID cards for cores and leads, ensuring professional and consistent branding throughout the event.",
+            "Created event-themed stickers and social media stories to enhance engagement and promote campus festivals effectively."
+        ]
     },
     {
         "id": 4,
         "heading": "Student Affairs Committee",
         "description": "Member of the SAC committee.",
         "thumbnail": "",
-        "link": ""
+        "detailedContent": [
+            "Actively participated as a member of the Student Affairs Committee, contributing to various student-focused initiatives and projects.",
+            "Involved in design contributions such as official ID cards, ensuring high-quality visual materials for student identification.",
+            "Collaborated with committee members to address student concerns and improve campus life through organized events and activities."
+        ]
     },
     {
         "id": 5,
         "heading": "The Gaming Club",
         "description": "Design team member.",
         "thumbnail": "",
-        "link": ""
+        "detailedContent": [
+            "Joined Exalt - The Gaming Club as a Design Team Member, contributing creative skills to enhance the club's visual presence.",
+            "Designed posters and cheques for various gaming events, ensuring attractive and informative promotional materials.",
+            "Collaborated with team members to maintain consistent branding and visual identity across all club activities and events."
+        ]
     },
     {
         "id": 6,
         "heading": "Japanese Language",
-        "description": "JLPT N5 certified (87 percentile).",
+        "description": "Course completion and JLPT N5 certified.",
         "thumbnail": "",
-        "link": ""
+        "detailedContent": [
+            "Successfully completed all three levels of Japanese Language Course offered at NIIT University during three semesters, demonstrating commitment to language learning and cultural understanding.",
+            "Achieved JLPT N5 certification with an impressive 87.6 percentile, showcasing proficiency in basic Japanese language skills including reading, writing, listening, and speaking.",
+            "This certification represents a solid foundation in Japanese language proficiency and opens opportunities for further language study and cultural exchange."
+        ]
     }
 ]
