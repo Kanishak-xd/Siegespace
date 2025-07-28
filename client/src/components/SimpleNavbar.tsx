@@ -10,15 +10,11 @@ const LINKS = [
   },
   {
     title: "Resume",
-    href: "#",
-  },
-  {
-    title: "About",
-    href: "#",
+    href: "https://drive.google.com/file/d/1peaDgSo1DXZwk3tFCjl5Aki88P1OT5ZH/view?usp=sharing",
   },
   {
     title: "Contact",
-    href: "#",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=kanishak.sharma22@st.niituniversity.in&su=&body=",
   },
 ];
 
@@ -27,7 +23,7 @@ function NavList() {
     <ul className="m-2 flex flex-col gap-x-8 gap-y-2 lg:m-0 lg:flex-row lg:items-center bg-white p-2">
       {LINKS.map(({ title, href }) => (
         <li key={title} className="bg-white rounded-xs">
-          <Typography as="a" href={href} type="small" className="p-1 hover:text-primary xl:text-xl">
+          <Typography as="a" href={href} type="small" className="p-1 hover:text-primary lg:text-lg xl:text-xl">
             {title}
           </Typography>
         </li>
