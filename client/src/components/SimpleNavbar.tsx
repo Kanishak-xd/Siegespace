@@ -27,7 +27,7 @@ function NavList() {
     <ul className="m-2 flex flex-col gap-x-8 gap-y-2 lg:m-0 lg:flex-row lg:items-center bg-white p-2">
       {LINKS.map(({ title, href }) => (
         <li key={title} className="bg-white rounded-xs">
-          <Typography as="a" href={href} type="small" className="p-1 hover:text-primary">
+          <Typography as="a" href={href} type="small" className="p-1 hover:text-primary xl:text-xl">
             {title}
           </Typography>
         </li>
