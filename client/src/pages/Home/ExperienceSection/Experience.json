@@ -36,7 +36,7 @@
         "id": 4,
         "heading": "Student Affairs Committee",
         "description": "Member of the SAC committee.",
-        "thumbnail": "",
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753967974/SACIDcard_pnoutu.png",
         "detailedContent": [
             "Actively participated as a member of the Student Affairs Committee, contributing to various student-focused initiatives and projects.",
             "Involved in design contributions such as official ID cards, ensuring high-quality visual materials for student identification.",
@@ -58,7 +58,7 @@
         "id": 6,
         "heading": "Japanese Language",
         "description": "Course completion and JLPT N5 certified.",
-        "thumbnail": "",
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753967974/JLPTcertificate_nlwvk0.png",
         "detailedContent": [
             "Successfully completed all three levels of Japanese Language Course offered at NIIT University during three semesters, demonstrating commitment to language learning and cultural understanding.",
             "Achieved JLPT N5 certification with an impressive 87.6 percentile, showcasing proficiency in basic Japanese language skills including reading, writing, listening, and speaking.",
