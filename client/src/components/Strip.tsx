@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { WordsPullUp } from './WordsPullUp';
 
 export default function Strip() {
   const messages = [
-    "Check out my Github for more projects!",
-    "Check out my new website rejap.vercel.app",
+    "Dive into my GitHub for more cool projects",
+    "Visit my latest creation — rejap.vercel.app",
     "Fueled by code and Spotify playlists",
     "Discover more on my social media",
   ];

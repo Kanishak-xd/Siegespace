@@ -3,11 +3,20 @@ import ExpCard from "./ExpCard";
 import ExpModal from "./ExpModal";
 import ExperienceData from "./Experience.json"
 
+// Import the interface from ExpCard to ensure type consistency
+interface ExperienceData {
+    id: number;
+    heading: string;
+    description: string;
+    thumbnail: string | string[];
+    detailedContent: string[];
+}
+
 export default function Experience() {
-  const [selectedExperience, setSelectedExperience] = useState<typeof ExperienceData[0] | null>(null);
+  const [selectedExperience, setSelectedExperience] = useState<ExperienceData | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleCardClick = (experience: typeof ExperienceData[0]) => {
+  const handleCardClick = (experience: ExperienceData) => {
     setSelectedExperience(experience);
     setIsModalOpen(true);
   };

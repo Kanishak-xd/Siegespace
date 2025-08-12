@@ -1,6 +1,5 @@
 'use client';
-import { motion, useInView } from 'framer-motion';
-import * as React from 'react';
+import { motion } from 'framer-motion';
 
 interface WordsPullUpProps {
     text: string;
@@ -15,14 +14,12 @@ export function WordsPullUp({
         initial: { y: 20, opacity: 0 },
         animate: (i: number) => ({ y: 0, opacity: 1, transition: { delay: i * 0.05 }, }),
     };
-    const ref = React.useRef(null);
-    const isInView = useInView(ref, { once: true });
 
     return (
         <div className="flex justify-center flex-wrap">
             {splittedText.map((currentWord: string, i: number) => (
                 <motion.div
-                    key={`${currentWord}-${i}-${text}`} ref={ref} variants={pullupVariant} initial="initial" animate="animate"
+                    key={`${currentWord}-${i}-${text}`} variants={pullupVariant} initial="initial" animate="animate"
                     custom={i} className={`
                         text-xl text-center sm:text-sm md:text-md xl:text-xl
                         font-semibold tracking-tighter pr-2 inline-block ${className}
