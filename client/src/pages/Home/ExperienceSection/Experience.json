@@ -14,7 +14,15 @@
         "id": 2,
         "heading": "The Design Club",
         "description": "Club coordinator for design activities.",
-        "thumbnail": "",
+        "thumbnail": [
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754991144/consiliocertificate_z7yaiz.jpg",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754991144/session2_owmtiz.jpg",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754991144/board1_upx5ec.jpg",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754991143/session1_lwzgi6.jpg",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754991137/board5_uukjof.jpg",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754991135/board4_thso7h.jpg",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754991133/board3_mcsbdm.jpg"
+        ],
         "detailedContent": [
             "As a Coordinator for Consilio - The Design Club, I was involved in fostering a vibrant community. The club operated on a community-run model, where members actively hosted sessions on various software, including Blender, Adobe After Effects, and more, sharing their expertise with peers.",
             "I personally organized and led design workshops for fellow students. These sessions covered practical software like Adobe Photoshop and Canva, as well as foundational design principles such as color theory and typography.",
@@ -25,7 +33,7 @@
         "id": 3,
         "heading": "IngeNUity Fest 2023",
         "description": "Volunteer on the design team.",
-        "thumbnail": "",
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754995373/ingenuity_orponh.png",
         "detailedContent": [
             "Served as a dedicated volunteer for IngeNUity 2023, contributing to the design team's efforts in creating visual materials for the campus festival.",
             "Designed ID cards for cores and leads, ensuring professional and consistent branding throughout the event.",
@@ -47,7 +55,7 @@
         "id": 5,
         "heading": "The Gaming Club",
         "description": "Design team member.",
-        "thumbnail": "",
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754991145/exaltposter_rso5gl.jpg",
         "detailedContent": [
             "Joined Exalt - The Gaming Club as a Design Team Member, contributing creative skills to enhance the club's visual presence.",
             "Designed posters and cheques for various gaming events, ensuring attractive and informative promotional materials.",
@@ -58,11 +66,16 @@
         "id": 6,
         "heading": "Japanese Language",
         "description": "Course completion and JLPT N5 certified.",
-        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753967974/JLPTcertificate_nlwvk0.png",
+        "thumbnail": [
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1753967974/JLPTcertificate_nlwvk0.png",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754993188/mekimono_gjumgl.jpg",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754993137/jppeople_cj37fe.jpg",
+            "https://res.cloudinary.com/dykzzd9sy/image/upload/v1754993127/calli_k8xvna.jpg"
+        ],
         "detailedContent": [
             "Successfully completed all three levels of Japanese Language Course offered at NIIT University during three semesters, demonstrating commitment to language learning and cultural understanding.",
             "Achieved JLPT N5 certification with an impressive 87.6 percentile, showcasing proficiency in basic Japanese language skills including reading, writing, listening, and speaking.",
-            "This certification represents a solid foundation in Japanese language proficiency and opens opportunities for further language study and cultural exchange."
+            "Actively participated in Japan Day events at the university, engaging in cultural activities such as kimono wearing, Japanese calligraphy, and interactive lessons and conversations with native speakers from the Japan Foundation, further enriching cross-cultural competence."
         ]
     }
 ]

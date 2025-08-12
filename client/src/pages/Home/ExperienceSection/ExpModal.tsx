@@ -1,8 +1,10 @@
+import { useState } from 'react';
+
 interface ExperienceData {
     id: number;
     heading: string;
     description: string;
-    thumbnail: string;
+    thumbnail: string | string[];
     detailedContent: string[];
 }
 
@@ -13,10 +15,29 @@ interface ExpModalProps {
 
 export default function ExpModal({ experience, onClose }: ExpModalProps) {
     const { heading, detailedContent, thumbnail } = experience;
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const handlePrevious = () => {
+        if (Array.isArray(thumbnail)) {
+            setCurrentImageIndex((prev) => 
+                prev === 0 ? thumbnail.length - 1 : prev - 1
+            );
+        }
+    };
+
+    const handleNext = () => {
+        if (Array.isArray(thumbnail)) {
+            setCurrentImageIndex((prev) => 
+                prev === thumbnail.length - 1 ? 0 : prev + 1
+            );
+        }
+    };
+
+    const hasMultipleImages = Array.isArray(thumbnail) && thumbnail.length > 1;
 
     return (
       <div className="fixed inset-0 z-50 grid place-content-center bg-black/50 p-4" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-        <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-lg">
+        <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-lg max-h-[90vh] overflow-y-auto">
           <div className="flex items-start justify-between">
             <h2 id="modalTitle" className="text-xl font-bold text-gray-900 sm:text-2xl">
               {heading}
@@ -40,11 +61,48 @@ export default function ExpModal({ experience, onClose }: ExpModalProps) {
               </p>
             ))}
             {thumbnail && (
-              <img
-                src={thumbnail}
-                alt={heading}
-                className="mt-6 w-full rounded-lg object-cover"
-              />
+              <div className="mt-6 relative">
+                {Array.isArray(thumbnail) ? (
+                  <div className="relative">
+                    <img
+                      src={thumbnail[currentImageIndex]}
+                      alt={`${heading} - Image ${currentImageIndex + 1}`}
+                      className="w-full rounded-lg object-cover"
+                    />
+                    {hasMultipleImages && (
+                      <>
+                        <button
+                          onClick={handlePrevious}
+                          className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all hover:scale-110"
+                          aria-label="Previous image"
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                          </svg>
+                        </button>
+                        <button
+                          onClick={handleNext}
+                          className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all hover:scale-110"
+                          aria-label="Next image"
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                          </svg>
+                        </button>
+                        <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-black/50 text-white px-2 py-1 rounded-full text-xs">
+                          {currentImageIndex + 1} / {thumbnail.length}
+                        </div>
+                      </>
+                    )}
+                  </div>
+                ) : (
+                  <img
+                    src={thumbnail}
+                    alt={heading}
+                    className="w-full rounded-lg object-cover"
+                  />
+                )}
+              </div>
             )}
           </div>
   

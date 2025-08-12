@@ -8,7 +8,7 @@ export default function Hero() {
                             I'm Kanishak, an aspiring <span className="intro-gradient">web developer </span>
                         </p>
                         <p className="font-semibold sm:text-md md:text-xl lg:text-[1.7rem] whitespace-nowrap">
-                            with a passion for UI/UX & graphic design
+                            with a passion for UI/UX & digital design
                         </p>
 
                         <p className="mt-4 sm:text-md md:text-lg lg:text-[1.25rem] whitespace-nowrap text-neutral-500">

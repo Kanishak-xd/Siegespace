@@ -10,7 +10,7 @@ const LINKS = [
   },
   {
     title: "Resume",
-    href: "https://drive.google.com/file/d/1XRZ2dtGuhS3n-OXUq4FruzDjqEOAc54S/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1g2suFrqCwp7LNsA_9B7prxXcnoM-0Zw8/view?usp=sharing",
   },
   {
     title: "Contact",

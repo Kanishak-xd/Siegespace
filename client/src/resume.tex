@@ -17,21 +17,11 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-
 %----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
- \usepackage{charter}
-
+\usepackage{charter}
 
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -54,7 +44,6 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
 %-------------------------
@@ -73,13 +62,6 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -87,121 +69,105 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %----------HEADING----------
-
 \begin{center}
     \textbf{\Huge \scshape Kanishak Sharma} \\ \vspace{1pt}
-    \small 7807330609 $|$ \href{https://siegespace.vercel.app/}{\underline{https://siegespace.vercel.app}} $|$ 
-    \href{https://www.linkedin.com/in/kanishak-xd/}{\underline{linkedin.com/in/kanishak-xd}} $|$
-    \href{https://github.com/Kanishak-xd}{\underline{github.com/kanishak-xd}}
+    \small 7807330609 $|$ \href{https://mail.google.com/mail/?view=cm&fs=1&to=kanishak.sharma22@st.niituniversity.in&su=&body=}{kanishak.sharma22@st.niituniversity.in} $|$
+    \href{https://www.linkedin.com/in/kanishak-xd}{LinkedIn [linkedin.com/in/kanishak-xd]} \\
+    \href{https://github.com/Kanishak-xd}{GitHub [github.com/Kanishak-xd]} $|$
+    \href{https://siegespace.vercel.app}{Portfolio [siegespace.vercel.app]}
 \end{center}
-
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {NIIT University}{Neemrana, Rajasthan}
-      {Bachelor of Technology in Computer Science and Engineering}{2022 -- 2026}
-    \resumeSubheading
-      {D.A.V Sr. Sec. Public School}{Kangra, Himachal Pradesh}
-      {10+1 and 10+2 in Non-Medical}{2020 -- 2022}
-  \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
-
   \resumeSubheading
     {Full Stack Developer Intern}{June 2025 -- July 2025}
     {Converge Digital}{Gurugram, Haryana}
   \resumeItemListStart
-    \resumeItem{\textbf{\href{https://github.com/Kanishak-xd/auth-app}{github.com/Kanishak-xd/auth-app}}: Built a secure authentication system with login/signup, profile editing, role-based dashboards, and audit logging}
-    \resumeItem{\textbf{\href{https://github.com/Kanishak-xd/hrms-app}{github.com/Kanishak-xd/hrms-app}}: Developed a role-based HR management platform with dynamic dashboard, employee management, and master modules (Company, Department, etc.)}
+    \resumeItem{\textbf{\href{https://github.com/Kanishak-xd/auth-app}{github.com/Kanishak-xd/auth-app}}: Built a secure authentication system with login/signup, profile editing, role-based dashboards, and audit logging.}
+    \resumeItem{\textbf{\href{https://github.com/Kanishak-xd/hrms-app}{github.com/Kanishak-xd/hrms-app}}: Developed a role-based HR management platform with dynamic dashboard, employee management, and master modules (Company, Department, etc.).}
   \resumeItemListEnd
-
-  \resumeSubheading
-    {Coordinator – Consilio, The Design Club}{Jan 2024 -- Dec 2024}
-    {NIIT University}{Neemrana, Rajasthan}
-  \resumeItemListStart
-    \resumeItem{Led peer-learning sessions on Adobe Photoshop, Canva, and design principles like color theory and typography}
-    \resumeItem{Organized a university-wide web development competition in collaboration with Sinusoid Tech Fest}
-    \resumeItem{Curated and displayed student design work through themed exhibitions in prominent academic spaces}
-  \resumeItemListEnd
-
-  \resumeSubheading
-    {Member -- Student Affairs Committee (SAC)}{Jan 2024 -- Dec 2024}
-    {NIIT University}{Neemrana, Rajasthan}
-  \resumeItemListStart
-    \resumeItem{Contributed to official student ID design and branding assets for university initiatives}
-    \resumeItem{Worked on campus engagement events aimed at improving student life and experiences}
-  \resumeItemListEnd
-
-  \resumeSubheading
-    {Japanese Language Learner -- JLPT N5 Certified}{Jan 2023 -- April 2024}
-    {NIIT University}{Neemrana, Rajasthan}
-  \resumeItemListStart
-    \resumeItem{Completed a three-semester language program and attained 87.6 percentile in JLPT N5}
-    \resumeItem{Developed proficiency in foundational Japanese skills including listening, reading, and conversation}
-  \resumeItemListEnd
-
 \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
-
   \resumeSubheading
     {REJAP -- Language Learning Website -- \href{https://github.com/Kanishak-xd/rejap}{github.com/Kanishak-xd/rejap}}{June 2025 -- Present}
     {MongoDB Atlas, Express, React, Node.js, Firebase, TailwindCSS, Cloudinary}{}
     \resumeItemListStart
-      \resumeItem{Built a gamified MERN platform to teach Japanese basics via interactive lessons, quizzes, dynamic progress tracking, and leaderboards with secure auth and admin dashboard.}
-      \resumeItem{Designed an immersive UI in Figma and TailwindCSS; implemented Firebase auth, role-based control, Cloudinary CDN, and deployed frontend/backend on Vercel and Render.}
+      \resumeItem{Built to help students prepare for the JLPT exam through interactive lessons, quizzes, progress tracking, and leaderboards.}
+      \resumeItem{Developed responsive UI in Figma and TailwindCSS; implemented Firebase Auth, role-based control, and deployed on Vercel/Render.}
     \resumeItemListEnd
 
   \resumeSubheading
     {Threat Intelligence Dashboard -- \href{https://github.com/Kanishak-xd/threat-intel}{github.com/Kanishak-xd/threat-intel}}{Jan 2025 -- May 2025}
     {MongoDB Atlas, Express, React, Node.js, Docker, Jenkins, AWS EC2}{}
     \resumeItemListStart
-      \resumeItem{Developed a dashboard to monitor honeypot data, analyze attack patterns, and visualize credentials using Chart.js and dark-themed UI.}
-      \resumeItem{Automated CI/CD with Docker \& Jenkins; deployed Cowrie honeypot on AWS EC2, frontend on Netlify, backend on Render.}
+      \resumeItem{Built in a team of 4 to collect and visualize honeypot data, showing attack patterns, credentials, and geolocation insights.}
+      \resumeItem{Designed and integrated backend APIs; deployed honeypot on AWS EC2, backend on Render, and frontend on Netlify.}
     \resumeItemListEnd
-
 \resumeSubHeadingListEnd
 
+%----------EDUCATION----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {NIIT University}{Neemrana, Rajasthan}
+      {Bachelor of Technology in Computer Science and Engineering}{2022 -- 2026}
+    \resumeItemListStart
+      \resumeItem{\textbf{Relevant Modules:} Object-Oriented Programming, Software Engineering, Capstone I \& II, Design Thinking and Interactive Technologies, Cloud Computing Concepts, Database Management Systems, Data Structures, Fundamentals of Computer Programming, Japanese Language – Levels 1, 2 \& 3}
+    \resumeItemListEnd
 
+    \resumeSubheading
+      {D.A.V Sr. Sec. Public School (CBSE)}{Kangra, Himachal Pradesh}
+      {XII}{2022}
 
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
+    \resumeSubheading
+      {D.A.V Public School (CBSE)}{Hamirpur, Himachal Pradesh}
+      {X}{2020}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{
     \item{
-      \textbf{Languages:} JavaScript, HTML, CSS \\
-      \textbf{Frameworks \& Libraries:} React, Angular, TailwindCSS, Express.js \\
-      \textbf{Tools \& Platforms:} Git, MongoDB, JWT, Vercel, Render \\
-      \textbf{Project Management:} Jira, Asana, Notion \\
-      \textbf{Design:} Figma, Adobe Photoshop, Canva
+      HTML, CSS, JavaScript, MongoDB, Express, React, Node, Angular, TailwindCSS, Bootstrap, Firebase, JWT, Git, Docker, VirtualBox, Jenkins, Vercel, Netlify, Render, Jira, Asana, Notion, Figma, Photoshop, Canva, Japanese language (JLPT N5 Certified) 
     }
   }
 \end{itemize}
 
+%-----------POSITIONS OF RESPONSIBILITY-----------
+\section{Positions of Responsibility}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Coordinator – Consilio, The Design Club}{Jan 2024 -- Dec 2024}
+    {NIIT University}{Neemrana, Rajasthan}
+  \resumeItemListStart
+    \resumeItem{Organized and led design workshops on Photoshop, Canva, and core design principles.}
+    \resumeItem{Collaborated with Sinusoid Fest to host a web development competition and curated campus exhibitions showcasing top student designs.}
+  \resumeItemListEnd
 
-%-------------------------------------------
+  \resumeSubheading
+    {Member – Student Affairs Committee (SAC)}{Jan 2024 -- Dec 2024}
+    {NIIT University}{Neemrana, Rajasthan}
+  \resumeItemListStart
+    \resumeItem{Designed official student ID cards and branding assets for university initiatives.}
+    \resumeItem{Collaborated on events to address student concerns and enhance campus life.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
 \end{document}

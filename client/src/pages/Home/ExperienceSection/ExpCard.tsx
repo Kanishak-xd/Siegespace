@@ -2,7 +2,7 @@ interface ExperienceData {
     id: number;
     heading: string;
     description: string;
-    thumbnail: string;
+    thumbnail: string | string[];
     detailedContent: string[];
 }
 
@@ -14,6 +14,9 @@ interface ExpCardProps {
 export default function ExpCard({ experienceCardData, onCardClick }: ExpCardProps) {
     const { heading, description, thumbnail } = experienceCardData;
     
+    // Get the first image for the card display
+    const displayImage = Array.isArray(thumbnail) ? thumbnail[0] : thumbnail;
+    
     const handleClick = (e: React.MouseEvent) => {
         e.preventDefault();
         onCardClick(experienceCardData);
@@ -24,7 +27,7 @@ export default function ExpCard({ experienceCardData, onCardClick }: ExpCardProp
             <div onClick={handleClick}
                 className="max-w-full p-2 sm:p-2 md:p-3 xl:p-4 border-1 border-black rounded-lg hover:scale-101 hover:cursor-pointer shadow-lg dark:bg-neutral-50 dark:text-neutral-900"
             >
-                <img src={ thumbnail } alt="experience-thumbnail" 
+                <img src={ displayImage } alt="experience-thumbnail" 
                     className="object-cover object-center w-full rounded-md xl:h-64 lg:h-62 md:h-62 sm:h-30 h-30 dark:bg-neutral-200" 
                 />
                 <div>
