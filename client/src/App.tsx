@@ -1,5 +1,5 @@
 import './App.css'
-import SimpleNavbar from './components/SimpleNavbar'
+import Navbar from './components/Navbar'
 import Home from './pages/Home/Home'
 import Footer from "./components/Footer"
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <SimpleNavbar />
+      <Navbar />
       <Home />
       <Footer />
     </>
