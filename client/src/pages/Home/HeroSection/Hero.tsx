@@ -1,19 +1,19 @@
 export default function Hero() {
     return (
-      <section className="z-0 mt-20 sm:mt-20 md:mt-35 xl:mt-35 px-auto xl:px-auto md:px-15 sm:px-auto">
+      <section className="z-0 mt-20 sm:mt-20 md:mt-35 xl:mt-35 px-auto xl:px-auto md:px-15 sm:px-auto bg-background dark:bg-neutral-950">
             <div className="mx-auto max-w-screen-lg px-4 py-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 sm:items-center sm:gap-8 sm:ml-1 ml-1 md:ml-1 lg:ml-2 xl:ml-2">
                     <div className="max-w-lg md:max-w-none flex flex-col justify-center items-start">
-                        <p className="font-semibold sm:text-md md:text-xl  lg:text-[1.7rem] whitespace-nowrap">
+                        <p className="font-semibold sm:text-md md:text-xl  lg:text-[1.7rem] whitespace-nowrap text-foreground">
                             I'm Kanishak, an aspiring <span className="intro-gradient">web developer </span>
                         </p>
-                        <p className="font-semibold sm:text-md md:text-xl lg:text-[1.7rem] whitespace-nowrap">
+                        <p className="font-semibold sm:text-md md:text-xl lg:text-[1.7rem] whitespace-nowrap text-foreground">
                             with a passion for UI/UX & digital design
                         </p>
 
-                        <p className="mt-4 sm:text-md md:text-lg lg:text-[1.25rem] whitespace-nowrap text-neutral-500">
-                            Currently studying at <span className="text-black">NIIT University</span><br/>
-                            Graduated from <span className="text-black">DAV Public School</span>
+                        <p className="mt-4 sm:text-md md:text-lg lg:text-[1.25rem] whitespace-nowrap text-neutral-500 dark:text-neutral-400">
+                            Currently studying at <span className="text-black dark:text-white">NIIT University</span><br/>
+                            Graduated from <span className="text-black dark:text-white">DAV Public School</span>
                         </p>
                     </div>
     
