@@ -73,23 +73,23 @@ export default function ExpModal({ experience, onClose }: ExpModalProps) {
                       <>
                         <button
                           onClick={handlePrevious}
-                          className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all hover:scale-110"
+                          className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white dark:bg-black/80 dark:hover:bg-black dark:text-white hover:cursor-pointer rounded-full p-1 shadow-lg transition-all hover:scale-110"
                           aria-label="Previous image"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M15 19l-7-7 7-7" />
                           </svg>
                         </button>
                         <button
                           onClick={handleNext}
-                          className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all hover:scale-110"
+                          className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white dark:bg-black/80 dark:hover:bg-black dark:text-white hover:cursor-pointer rounded-full p-1 shadow-lg transition-all hover:scale-110"
                           aria-label="Next image"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M9 5l7 7-7 7" />
                           </svg>
                         </button>
-                        <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-black/50 text-white px-2 py-1 rounded-full text-xs">
+                        <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white/50 text-black dark:bg-black/50 dark:text-white px-2 py-1 rounded-full text-xs">
                           {currentImageIndex + 1} / {thumbnail.length}
                         </div>
                       </>
