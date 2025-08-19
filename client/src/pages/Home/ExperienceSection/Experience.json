@@ -3,11 +3,11 @@
         "id": 1,
         "heading": "Converge Digital",
         "description": "Full stack development intern.",
-        "thumbnail": "",
+        "thumbnail": "https://res.cloudinary.com/dykzzd9sy/image/upload/v1755599984/interni-certi_fmehtm.png",
         "detailedContent": [
-            "Worked as a Full Stack Development Intern at Converge Digital, gaining hands-on experience in modern web development technologies and practices.",
-            "Contributed to real-world projects, developing both frontend and backend components while collaborating with experienced developers.",
-            "Enhanced skills in responsive design, API integration, and database management through practical application."
+            "Successfully completed a 2-month internship (June-July) at Converge Digital as a B.Tech CSE student at NIIT University.",
+            "Worked on full-stack application development using the MEAN stack (MongoDB, Express.js, Angular, Node.js), consistently learning and applying new technologies in real projects.",
+            "Contributed to two key products: a secure Authentication application (profile editing, role-based dashboards, audit logging) and an HR Management platform (dynamic dashboard, employee management, master modules) to streamline operations."
         ]
     },
     {
